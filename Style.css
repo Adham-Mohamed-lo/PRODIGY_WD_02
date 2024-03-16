@@ -1,0 +1,57 @@
+body {
+    font-family: 'Arial','Roboto', "Segoe UI", Tahoma, Verdana, sans-serif;
+    background-color: rgb(110, 21, 31);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: wheat;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.stopwatch {
+    text-align: center;
+}
+
+h1 {
+    font-size: 3em;
+    margin: 0;
+    color: black;
+}
+
+.controls {
+    margin-top: 20px;
+}
+
+button {
+    font-size: 1em;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: rgb(192, 74, 59);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: green;
+}
+
+#lapList {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+}
+
+#lapList li {
+    padding: 5px;
+    border-bottom: 1px solid rgb(253, 1, 1);
+}
